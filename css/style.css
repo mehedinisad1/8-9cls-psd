@@ -1,0 +1,157 @@
+/*common code*/
+body{
+	margin: 0;
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+}
+/*common code*/
+/*header strat*/
+header{
+     padding: 30px 0;
+}
+.container{
+	margin: 0 auto;
+	width: 90%;
+/*	border: 1px solid red;*/
+	overflow: hidden;
+}
+.logo{
+	padding: 4px;
+    margin-top: 6px;
+	width: 10%;
+	float: left;
+/*	border: 1px solid;*/
+}
+.logo a{
+	display: block;
+}
+.logo a img{
+	    width: 100%;
+}
+.menu{
+	width: 60%;
+	float: right;
+/*	border: 1px solid red;*/
+}
+.menu ul{
+	margin: 0;
+	float: right;
+}
+.menu ul li{
+	float: left;
+	list-style: none;
+}
+.menu ul li a{
+	margin: 15px 30px 20px;
+	text-decoration: none;
+	display: inline-block;
+	text-transform: uppercase;
+	border-bottom: 1px solid transparent;
+	color: #626262;
+	transition: .33s;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #626262;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+/*header end*/
+/*banner straT*/
+.banner{
+	padding-bottom: 25px;
+}
+.b_img{
+	display: block;
+}
+
+.b_img img{
+	width: 100%;
+}
+
+/*banner end*/
+/*msg strat*/
+.msg{
+   padding: 60px 0 100px;
+}
+.container2{
+	margin: 0 auto;
+	width: 80%;
+/*	border: 1px solid;*/
+	overflow: hidden;
+}
+.m_p{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	margin: 0;
+	text-transform: uppercase;
+	
+}
+.m_h1{
+	font-size: 16px;
+	font-weight: 700;
+	margin-top: 20px;
+    margin-bottom: 28px;
+}
+.m_p2{
+	margin: 0;
+	line-height: 24px;
+}
+.m_p3{
+	margin-top: 50px;
+}
+/*msg end*/
+
+/*feature strat*/
+.feature{
+    padding-bottom: 55px;
+}
+.f_img{
+	width: 46%;
+	float: left;
+/*	border: 1px solid;*/
+
+
+}
+.f_img img{
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+
+.text h1{
+	margin: 25px 0 30px;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+
+.f_img2{
+	width: 46%;
+	float: right;
+/*	border: 1px solid;*/
+	
+}
+.f_img2 img{
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+/*feature end*/
+/*feature2 strat*/
+.feature2{
+	padding: 55px 0;
+}
+/*feature2 end*/
+/*email strat*/
+/*.email{}
+.container3{
+	width: 100%;
+	background-color: #fofofo;
+	border: 1px solid;
+}*/
+/*email end*/
+
